@@ -5,6 +5,7 @@
     background-color: #4aaaa5;
     padding: 20px;
     display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .nav {
@@ -13,11 +14,12 @@
     background-color: white;
     padding: 20px;
     
+    
   }
   
   .subNavGroup {
     display: inline;
-    padding-left: 340px;
+    padding-left: 344px;
   }
   
   .subNav {
@@ -49,11 +51,15 @@
   .mainContent {
     position: relative;
     display:inline-block;
-    width: 600px;
+    width: 603px;
     background-color: #ffffff;
     border: solid lightgrey 1px;
-    padding: 20px;
-    margin:20px;
+    padding: 18px;
+    margin:20px 20px 20px 0px;
+    line-height: 1.8;
+    
+    
+    
   } 
   
   .sidebar {
@@ -64,7 +70,11 @@
     padding:20px;
     border:solid lightgrey 1px;
     margin: 20px;
-   font-size: 20px;
+   font-size: 22px;
+   text-align: center;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
   
@@ -81,15 +91,20 @@
   }
   
   .wallpaper {
-    background: url('../images/topography/topography.png');
+    background-image: url('../images/topography/topography.png');
     position: relative;
     border-top:1px lightgray solid;
+    height:100%;
 }
   
   .aboutMe {
     text-align: left;
     border-bottom: 2px lightgrey solid;
     padding: 10px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .connect {
@@ -99,3 +114,71 @@
   }
   
   
+body {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+a {
+    text-decoration:  none;
+    color: #777777;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+  
+  .form-control input , textarea {
+    width: 100%;
+    
+  }
+
+  input[type='submit'] {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4aaaa5
+  }
+
+  .col  {
+    display:inline;
+  }
+
+.row1 .col span {
+    position: absolute;
+    top: 254px;
+    background-color:#4aaaa5;
+    width: 284px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.row2 .col span {
+  position: absolute;
+  top: 465px;
+  background-color: #4aaaa5;
+  width: 284px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+  
+.col span a {
+  text-decoration:  none;
+  color: white;
+  font-size: 20px;
+}
+
