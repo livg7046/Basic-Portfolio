@@ -1,0 +1,101 @@
+.myName {
+    font-size:32px;
+    font-weight: bold;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    display: inline;
+  }
+  
+  .nav {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+    padding: 20px;
+    
+  }
+  
+  .subNavGroup {
+    display: inline;
+    padding-left: 340px;
+  }
+  
+  .subNav {
+    font-size: 18px;
+    display:inline;
+    padding: 18px 20px;  
+    background-color: #ffffff;
+  }
+  
+  /*
+  #about, #portfolio {
+    border-right: lightgrey 1px solid;
+  }
+  */
+  
+  .pipe {
+    font-size: 22px;
+    display:inline;
+    color: lightgrey;
+  }
+  
+  .content {
+    margin: auto;
+    width: 960px;
+    
+    
+  }  
+    
+  .mainContent {
+    position: relative;
+    display:inline-block;
+    width: 600px;
+    background-color: #ffffff;
+    border: solid lightgrey 1px;
+    padding: 20px;
+    margin:20px;
+  } 
+  
+  .sidebar {
+    position:absolute;
+    display:inline-block;
+    background-color: #ffffff;
+    width: 240px;
+    padding:20px;
+    border:solid lightgrey 1px;
+    margin: 20px;
+   font-size: 20px;
+    
+  }
+  
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #666666;
+      color: white;
+      text-align: center;
+      border-top: 4px solid #4aaaa5;
+      clear: both;
+  }
+  
+  .wallpaper {
+    background: url('../images/topography/topography.png');
+    position: relative;
+    border-top:1px lightgray solid;
+}
+  
+  .aboutMe {
+    text-align: left;
+    border-bottom: 2px lightgrey solid;
+    padding: 10px;
+  }
+  
+  .connect {
+    text-align: center;
+    border-bottom: 2px lightgrey solid;
+    padding: 5px;
+  }
+  
+  
